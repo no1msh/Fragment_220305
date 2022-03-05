@@ -28,7 +28,7 @@ class FirstFragment : Fragment() {
         btnLogInFragment.setOnClickListener {
 
             Log.d("프래그먼트", "첫번째 프래그먼트에서 로그 찍기")
-            
+
         }
     }
 

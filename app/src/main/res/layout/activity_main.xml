@@ -7,5 +7,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <fragment
+        android:tag="아무말"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        class="com.example.fragment_220305.fragments.FirstFragment" />
 
+    <fragment
+        android:tag="두번째 프래그먼트"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        class="com.example.fragment_220305.SecondFragment" />
 </LinearLayout>
